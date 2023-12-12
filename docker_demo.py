@@ -1,11 +1,9 @@
 #!/usr/bin/env python
-# coding: utf-8
 
 import argparse
 from argparse import SUPPRESS
 import pandas as pd
 import sys
-
 
 def describe_import(**kwargs):
     print("Getting overview of environment.")
