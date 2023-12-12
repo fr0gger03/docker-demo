@@ -1,5 +1,6 @@
 # Use an official Python runtime as a parent image
-FROM python:3.9-alpine
+FROM python:3.9-bookworm
+# FROM python:3.10-bookworm
 
 # Set the working directory to /app
 WORKDIR /app
@@ -7,8 +8,6 @@ WORKDIR /app
 # Copy the current directory contents into the container at /app
 COPY . /app
 
-# Run the command to install any necessary dependencies
-RUN pip install --no-cache-dir -r requirements.txt
+RUN pip install -r requirements.txt
 
-# Run hello.py when the container launches
-CMD ["python", "docker_demo.py -fn rvtools_file.xlsx -ft rv-tools"]
+# CMD ["python", "docker_demo.py -fn rvtools_file.xlsx -ft rv-tools"]
