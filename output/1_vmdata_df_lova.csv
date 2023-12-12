@@ -1,0 +1,77 @@
+,cluster,virtualDatacenter,os,os_name,vmState,vCpu,vmName,vmId,vmdkTotal,vmdkUsed,vRam,ip_addresses,readIOPS,writeIOPS,peakReadIOPS,peakWriteIOPS,readThroughput,writeThroughput,peakReadThroughput,peakWriteThroughput
+0,,School Datacenter,Microsoft Windows Server 2008 R2 (64-bit),termlsw2k8.school.edu,poweredOff,1,%2fvmfs%2fvolumes%2f5fd15398-255c80e0-a3c7-ac1f6b4cd1c8%2ftermlsw2k8%2ftermlsw2k,vm-93,0.0,0.0,0.03125,no ip,0,0,0,0,0,0,0,0
+1,,School Datacenter,FreeBSD Pre-11 versions (64-bit),connector,poweredOff,2,AWS-SMS-Connector,vm-1791,299.0009765625,299.0009765625,8.0,no ip,0,0,0,0,0,0,0,0
+2,,School Datacenter,Debian GNU/Linux 10 (64-bit),,poweredOff,8,AwsVpnClient,vm-277,40.0,40.0,16.0,no ip,0,0,0,0,0,0,0,0
+3,,School Datacenter,Ubuntu Linux (64-bit),badri,poweredOn,8,badri,vm-212,45.0,45.0,16.0,"10.32.60.40, fe80::250:56ff:febb:ea43, 10.69.2.72, fe80::65b:2590:31fe:db91",0,1,1035,846,0,0,19,17
+4,,School Datacenter,Debian GNU/Linux 9 (64-bit),ClusterMGMT,poweredOn,2,ClusterMGMT,vm-102,60.0,60.0,4.0,"10.69.2.79, fe80::250:56ff:fe8a:740b, 192.168.100.9, fe80::250:56ff:fe8a:e98",35,88,3746,5268,3,3,254,194
+5,,School Datacenter,CentOS 6 (64-bit),cndgridmaster.school.edu,poweredOn,4,CndgridMaster,vm-320,60.0,60.0,10.0,"10.69.2.87, fe80::250:56ff:febb:8510, 10.20.100.10, fe80::250:56ff:febb:6f25",0,1,0,55,0,0,0,0
+6,,School Datacenter,Debian GNU/Linux 10 (64-bit),core1,poweredOn,1,core1,vm-2064,16.0,16.0,2.0,"10.3.1.4, fe80::250:56ff:febb:169d, 10.32.60.4, fe80::250:56ff:febb:d310",0,0,0,60,0,0,0,0
+7,,School Datacenter,Debian GNU/Linux 10 (64-bit),core2,poweredOn,1,core2,vm-2066,16.0,16.0,2.0,"10.3.1.5, fe80::250:56ff:febb:f033, 10.32.60.5, fe80::250:56ff:febb:ea4e",0,1,46,34,0,0,0,1
+8,,School Datacenter,Microsoft Windows Server 2016 or later (64-bit),DC01.school.edu,poweredOn,2,DC01,vm-431,80.0,80.0,4.0,"fe80::80f7:7dc0:a92b:40f, 10.69.2.40",1,6,903,786,0,0,6,48
+9,,School Datacenter,Microsoft Windows Server 2016 or later (64-bit),DC02.school.edu,poweredOn,2,DC02,vm-430,80.0,80.0,4.0,"fe80::81cd:2584:2176:3799, 10.69.2.41",0,6,204,157,0,0,1,2
+10,,School Datacenter,Microsoft Windows Server 2016 or later (64-bit),DC03.school.edu,poweredOn,2,DC03,vm-415,80.0,80.0,4.0,"fe80::b1a1:5b38:586d:6628, 10.69.2.42",1,7,429,72,0,0,3,2
+11,,School Datacenter,Debian GNU/Linux 10 (64-bit),,poweredOff,2,Deb10_Template-VC2,vm-396,30.0,30.0,4.0,no ip,0,0,0,0,0,0,0,0
+12,,School Datacenter,Microsoft Windows Server 2016 or later (64-bit),esx-vc2.school.edu,poweredOn,4,ESX-VC2,vm-2034,150.0,56.8896484375,16.0,10.69.2.20,0,9,946,294,0,0,7,76
+13,,School Datacenter,Microsoft Windows 10 (64-bit),HAN.school.edu,poweredOn,4,HAN,vm-364,32.0,32.0,8.0,"fe80::3f7b:d360:e0fc:15a2, 10.69.2.49",0,2,354,407,0,0,16,17
+14,,School Datacenter,CentOS 7 (64-bit),helpdesk.school.edu,poweredOn,2,helpdesk,vm-779,30.0,30.0,6.0,"10.69.2.50, fe80::250:56ff:fe8a:2378",0,1,10,15,0,0,1,3
+15,,School Datacenter,Microsoft Windows Server 2016 or later (64-bit),hgrc1.school.edu,poweredOn,6,HGRC1,vm-62,350.0,350.0,16.0,"fe80::2047:4075:7d2b:87ec, 10.69.2.36",1,3,307,1372,0,0,307,308
+16,,School Datacenter,Microsoft Windows Server 2016 or later (64-bit),hgrc2.school.edu,poweredOn,2,HGRC2,vm-268,60.0,60.0,8.0,10.69.2.37,0,0,16,38,0,0,16,16
+17,,School Datacenter,Microsoft Windows Server 2016 or later (64-bit),hgrc4.school.edu,poweredOn,16,HGRC4,vm-205,300.0,300.0,40.0,"fe80::9869:1416:5e3d:3593, 10.69.2.38",1,1,851,632,0,0,278,278
+18,,School Datacenter,Debian GNU/Linux 6 (64-bit),,poweredOff,8,HgrcgridLogin,vm-181,35.0,35.0,24.0,no ip,0,0,0,0,0,0,0,0
+19,,School Datacenter,Debian GNU/Linux 10 (64-bit),JCEDEV01,poweredOn,4,JCEDEV01,vm-2164,140.0,140.0,16.0,"172.20.0.1, 172.19.0.1, 10.69.2.57, fe80::250:56ff:febb:8849",0,5,835,406,0,0,3,17
+20,,School Datacenter,Debian GNU/Linux 10 (64-bit),JCEMSDEV01,poweredOn,4,JCEMSDEV01,vm-2202,140.0,140.0,10.0,"172.19.0.1, 10.69.2.92, fe80::250:56ff:febb:a610, 172.20.0.1",0,5,1368,369,0,0,5,12
+21,,School Datacenter,Debian GNU/Linux 10 (64-bit),langley,poweredOn,2,Langley,vm-413,80.0,80.0,6.0,"10.69.2.54, fe80::250:56ff:fe8a:3570, 10.3.1.19, fe80::250:56ff:fe8a:50b2",0,103,64,1034,0,2,2,17
+22,,School Datacenter,Microsoft Windows Server 2016 or later (64-bit),,poweredOn,2,MAGNETO,vm-314,60.0,60.0,8.0,no ip,0,4,11,57,0,0,0,37
+23,,School Datacenter,Microsoft Windows 10 (64-bit),niapp002.school.edu,poweredOn,2,niapp002,vm-463,60.0,60.0,8.0,"fe80::f170:15f7:367f:df1f, 10.69.2.34",0,2,826,553,0,0,24,63
+24,,School Datacenter,Debian GNU/Linux 10 (64-bit),niapp003,poweredOn,4,NIAPP003,vm-564,100.0,100.0,8.0,"10.69.2.56, fe80::250:56ff:febb:39c2",1,10,154,419,0,0,16,34
+25,,School Datacenter,Debian GNU/Linux 6 (64-bit),,poweredOff,1,NIAPP004,vm-116,30.0,30.0,2.0,no ip,0,0,0,0,0,0,0,0
+26,,School Datacenter,Other 3.x Linux (64-bit),niapp005,poweredOn,4,NIAPP005,vm-52,1064.0,1064.0,12.0,"10.69.2.44, fe80::250:56ff:fe9b:4f5e",0,0,0,25,0,0,0,11
+27,,School Datacenter,Debian GNU/Linux 10 (64-bit),niapp006,poweredOn,8,NIAPP006,vm-2029,50.0,50.0,4.0,"10.69.2.21, fe80::250:56ff:febb:255d, 10.32.60.50, fe80::250:56ff:febb:e30",0,7,412,308,0,0,38,24
+28,,School Datacenter,Microsoft Windows Server 2012 (64-bit),niapp007.school.edu,poweredOff,4,niapp007,vm-760,1626.0,1626.0,12.0,no ip,0,0,0,0,0,0,0,0
+29,,School Datacenter,Microsoft Windows Server 2016 or later (64-bit),niapp008.school.edu,poweredOn,2,niapp008,vm-1036,120.0,120.0,16.0,"fe80::e1b8:db48:7e0e:eee5, 10.69.2.51, fe80::58b7:73f4:bd75:93dc, 169.254.147.220",0,1,7,143,0,0,0,1
+30,,School Datacenter,Ubuntu Linux (64-bit),,poweredOn,4,NICLUSTERMaster,vm-107,40.0,40.0,4.0,no ip,0,1,711,60,0,0,7,0
+31,,School Datacenter,Microsoft Windows Server 2016 or later (64-bit),nidev013.school.edu,poweredOn,4,NIDEV013,vm-2039,200.0,200.0,8.0,"10.69.2.32, fe80::1904:86b2:df77:2d3e, 192.168.56.1, fe80::5c0f:dcc0:d5b2:f10e",4,4,1615,682,0,0,43,80
+32,,School Datacenter,Debian GNU/Linux 10 (64-bit),nidev014,poweredOn,5,NIDEV014,vm-2028,140.0,140.0,24.0,"10.69.2.31, fe80::250:56ff:fe8a:5356, 172.19.0.1, 172.20.0.1",0,5,0,283,0,0,0,8
+33,,School Datacenter,Debian GNU/Linux 6 (64-bit),,poweredOn,2,NIDEV015,vm-2042,130.0,130.0,4.0,no ip,0,1,266,25,0,0,11,5
+34,,School Datacenter,Debian GNU/Linux 10 (64-bit),nidev016,poweredOn,6,NIDEV016,vm-2040,140.0,140.0,24.0,"172.20.0.1, 10.69.2.30, fe80::250:56ff:fe8a:23a1, 172.19.0.1",0,5,859,448,0,0,3,15
+35,,School Datacenter,Debian GNU/Linux 10 (64-bit),nidev017,poweredOn,5,NIDEV017,vm-2045,140.0,140.0,12.0,"10.69.2.29, fe80::250:56ff:fe8a:2df9, 172.20.0.1, 172.19.0.1",5,5,1812,182,0,0,8,7
+36,,School Datacenter,Microsoft Windows Server 2012 (64-bit),NIEMG001.school.edu,poweredOn,2,NIEMG001,vm-152,2128.0,2128.0,16.0,10.69.2.35,15,3,7622,1167,0,0,475,72
+37,,School Datacenter,Microsoft Windows Server 2008 R2 (64-bit),NIFILE001.school.edu,poweredOn,4,NIFILE001,vm-154,5170.0,5170.0,12.0,"fe80::e417:e732:d5b0:b620, 10.69.2.24",0,1,775,1893,0,0,17,118
+38,,School Datacenter,Microsoft Windows Server 2008 R2 (64-bit),NIFM001.school.edu,poweredOn,2,NIFM001,vm-2025,1616.0,1616.0,8.0,10.69.2.78,3,5,1375,1951,1,1,389,389
+39,,School Datacenter,Microsoft Windows Server 2016 or later (64-bit),NILAB001.school.edu,poweredOn,2,NILAB001,vm-2027,304.0,304.0,4.0,"fe80::a5bd:9dc1:e5b6:acd, 10.3.1.2, 169.254.10.205, fe80::f529:86c0:1a0a:53a0",2,2,2300,990,0,0,80,71
+40,,School Datacenter,Microsoft Windows Server 2016 or later (64-bit),NILAB002.school.edu,poweredOn,2,NILAB002,vm-2032,100.0,100.0,8.0,"fe80::6049:402c:8438:c0ac, 10.69.2.48",0,1,563,250,0,0,33,33
+41,,School Datacenter,Microsoft Windows Server 2016 or later (64-bit),nilab010.school.edu,poweredOff,2,NILAB010,vm-1773,50.0,50.0,8.0,no ip,0,0,0,0,0,0,0,0
+42,,School Datacenter,FreeBSD Pre-11 versions (64-bit),nilb003,poweredOn,2,NILB003,vm-156,20.0,17.580078125,4.0,"10.69.2.58, fe80::250:56ff:fe00:5656",0,0,0,19,0,0,0,0
+43,,School Datacenter,Microsoft Windows Server 2016 or later (64-bit),nilicsrv.school.edu,poweredOn,2,NILICSRV,vm-2205,60.0,60.0,4.0,"fe80::b3a7:9169:6f56:c2c6, 10.69.2.100, fe80::f0dd:e3e3:681e:14ed, 10.32.60.104",1,1,610,261,0,0,8,17
+44,,School Datacenter,SUSE Linux Enterprise 11 (64-bit),NILOG001,poweredOn,4,NILOG001,vm-217,1040.5,1040.5,8.0,"10.69.2.55, fe80::250:56ff:fe8a:7b90",3,27,1108,158,0,0,47,9
+45,,School Datacenter,SUSE Linux Enterprise 11 (64-bit),NILOG002,poweredOn,4,NILOG002,vm-2026,530.5,530.5,8.0,"10.69.2.52, fe80::250:56ff:fe8a:6334",1,15,948,167,0,0,34,17
+46,,School Datacenter,Microsoft Windows Server 2016 or later (64-bit),nimgmt003.school.edu,poweredOn,4,NIMGMT003,vm-1987,100.0,100.0,12.0,"fe80::60a1:5fcf:9c42:4d3b, 10.3.1.246, 169.254.77.59, fe80::f5b5:ebe4:c0ae:5173",0,1,85,278,0,0,15,79
+47,,School Datacenter,Microsoft Windows Server 2016 or later (64-bit),nirdcb001.school.edu,poweredOn,2,NIRDCB001,vm-2365,60.0,60.0,4.0,"fe80::8e67:8b7:d0e9:86b8, 10.69.2.9, fe80::129d:fb4a:5708:6bd, 10.32.60.104",0,1,222,139,0,0,3,7
+48,,School Datacenter,Microsoft Windows Server 2016 or later (64-bit),nirdgw001.school.edu,poweredOn,2,nirdgw001,vm-2187,60.0,60.0,8.0,"fe80::872e:91f:5a4a:8055, 10.69.2.10, fe80::8cbd:14ee:aac:9055, 156.145.15.200",0,1,16,30,0,0,7,7
+49,,School Datacenter,Microsoft Windows Server 2016 or later (64-bit),nirdh002.school.edu,poweredOn,8,nirdh002,vm-2185,100.0,100.0,48.0,"fe80::b9d8:46dc:fd03:ef72, 10.69.2.12",0,1,529,264,0,0,30,34
+50,,School Datacenter,Microsoft Windows Server 2016 or later (64-bit),nirdh003.school.edu,poweredOn,8,nirdh003,vm-2186,100.0,100.0,48.0,"fe80::9fc3:942c:d143:726f, 10.69.2.13",0,1,279,127,0,0,33,27
+51,,School Datacenter,Microsoft Windows Server 2016 or later (64-bit),NISP001.school.edu,poweredOn,4,NISP001,vm-110,180.0,180.0,32.0,"fe80::5483:721:c185:e5ce, 10.69.2.45",2,14,6849,329,0,0,426,8
+52,,School Datacenter,Microsoft Windows Server 2012 (64-bit),NISP001.school.edu,poweredOff,4,NISP001,vm-2402,180.0,179.43359375,32.0,no ip,0,0,0,0,0,0,0,0
+53,,School Datacenter,Microsoft Windows Server 2012 (64-bit),,poweredOff,4,NISQL001,vm-2385,7228.0,4693.1591796875,30.0,no ip,0,0,0,0,0,0,0,0
+54,,School Datacenter,Microsoft Windows Server 2016 or later (64-bit),NISQL001.school.edu,poweredOn,4,NISQL001,vm-433,7228.0,7228.0,30.0,"fe80::8d22:25de:24d9:ebad, 10.69.2.22",0,0,7,15,0,0,0,1
+55,,School Datacenter,Microsoft Windows Server 2008 R2 (64-bit),NISQL003.school.edu,poweredOn,4,NISQL003,vm-157,360.0,360.0,12.0,"fe80::7037:2dd6:b4e2:f901, 10.69.2.23",1,2,2008,1960,0,0,207,122
+56,,School Datacenter,Debian GNU/Linux 6 (64-bit),nisql004a,poweredOff,4,nisql004a-mysql,vm-54,280.0,280.0,48.0,no ip,0,0,0,0,0,0,0,0
+57,,School Datacenter,VMware Photon OS (64-bit),NIVR002.school.edu,poweredOn,4,NIVR002,vm-2346,33.0,33.0,8.0,10.69.2.69,0,2,0,37,0,0,0,0
+58,,School Datacenter,CentOS 8 (64-bit),,poweredOn,4,nixdmod01,vm-2381,60.0,60.0,4.0,no ip,0,0,0,5,0,0,0,0
+59,,School Datacenter,Microsoft Windows Server 2008 R2 (64-bit),NIXEN001.school.edu,poweredOn,4,NIXEN001,vm-158,135.0,135.0,8.0,"fe80::150:6fe4:25d4:925a, 10.69.2.61",0,2,294,1222,0,0,7,7
+60,,School Datacenter,Microsoft Windows Server 2012 (64-bit),NIXEN002.school.edu,poweredOn,2,NIXEN002,vm-2033,80.0,44.01953125,4.0,10.69.2.62,0,1,583,88,0,0,8,10
+61,,School Datacenter,Microsoft Windows Server 2016 or later (64-bit),nixen003.school.edu,poweredOn,4,nixen003,vm-340,100.0,100.0,16.0,"fe80::b062:425d:446a:6c9e, 10.69.2.63",0,2,245,577,0,0,7,36
+62,,School Datacenter,Microsoft Windows Server 2016 or later (64-bit),nixen004.school.edu,poweredOn,8,nixen004,vm-450,100.0,100.0,48.0,"fe80::90e4:913d:4bc3:52da, 10.69.2.64",1,4,2105,1545,0,0,48,112
+63,,School Datacenter,Microsoft Windows Server 2016 or later (64-bit),nixen005.school.edu,poweredOn,16,nixen005,vm-338,150.0,150.0,64.0,"fe80::4048:c57e:5f44:92a3, 10.69.2.65",1,5,1809,2046,0,0,41,81
+64,,School Datacenter,Microsoft Windows Server 2016 or later (64-bit),nixen006.school.edu,poweredOn,16,nixen006,vm-342,150.0,150.0,64.0,"fe80::c598:4b9c:623c:ee4e, 10.69.2.66",1,4,2016,1343,0,0,44,76
+65,,School Datacenter,Other 2.6.x Linux (64-bit),ntp,poweredOff,1,ntp,vm-410,8.0,8.0,1.0,no ip,0,0,0,0,0,0,0,0
+66,,School Datacenter,Debian GNU/Linux 10 (64-bit),prometheus,poweredOn,8,Prometheus,vm-1220,30.0,30.0,18.0,"10.69.2.90, fe80::250:56ff:febb:d41a, 10.32.60.21, fe80::250:56ff:febb:6a21",2,4,620,246,0,0,10,27
+67,,School Datacenter,Debian GNU/Linux 10 (64-bit),,poweredOff,4,Red_Clone,vm-2021,40.0,40.0,8.0,no ip,0,0,0,0,0,0,0,0
+68,,School Datacenter,Microsoft Windows Server 2016 or later (64-bit),serg2.school.edu,poweredOn,8,Serg2,vm-560,300.0,300.0,32.0,"fe80::adfa:7562:b5f4:5006, 10.69.2.39",0,1,70,859,0,0,70,70
+69,,School Datacenter,CentOS 4/5 or later (64-bit),serg3.cpmc.columbia.edu,poweredOn,5,SERG3,vm-382,80.0,80.0,6.0,"10.69.2.43, fe80::250:56ff:fe9b:1628",0,0,0,3,0,0,0,0
+70,,School Datacenter,Microsoft Windows Server 2016 or later (64-bit),,poweredOff,2,Server2019_Template,vm-2364,60.0,60.0,4.0,no ip,0,0,0,0,0,0,0,0
+71,,School Datacenter,Debian GNU/Linux 10 (64-bit),sftp,poweredOn,1,sftp,vm-385,24.0,24.0,2.0,"10.32.60.31, fe80::250:56ff:febb:9810, 10.69.2.73, fe80::250:56ff:febb:bbad",2,1,332,34,0,0,5,0
+72,,School Datacenter,Microsoft Windows Server 2008 R2 (64-bit),,poweredOff,4,stroke,vm-2041,240.0,240.0,16.0,no ip,0,0,0,0,0,0,0,0
+73,,School Datacenter,Microsoft Windows Server 2012 (64-bit),termlsw2k8.school.edu,poweredOn,2,termlsw2k8,vm-2241,100.0,80.0,4.0,"10.69.2.46, fe80::1576:e0ec:4bc:e1cb, 10.32.60.28",0,1,19,97,0,0,0,2
+74,,School Datacenter,Debian GNU/Linux 9 (64-bit),web.school.edu,poweredOn,1,web,vm-187,30.0,30.0,1.0,"10.69.2.74, fe80::250:56ff:fe8a:364e",0,0,9,24,0,0,0,2
+75,,School Datacenter,Microsoft Windows Server 2016 or later (64-bit),WSUS.school.edu,poweredOn,4,WSUS,vm-98,550.0,550.0,8.0,10.69.2.68,2,4,1028,833,0,0,68,39
