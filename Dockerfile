@@ -10,4 +10,5 @@ COPY . /app
 
 RUN pip install -r requirements.txt
 
-# CMD ["python", "docker_demo.py -fn rvtools_file.xlsx -ft rv-tools"]
+CMD python "./docker_demo.py" "-fn" "rvtools_file.xlsx" "-ft" "rv-tools"
+# ENTRYPOINT ["python"]
