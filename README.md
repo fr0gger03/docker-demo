@@ -19,19 +19,19 @@ The script will read a XLSX file, and print out a summary of the contents of the
 ## Building and running the container
 - Install Docker Desktop on your workstation
 - From within the same directory, run thefollowing command:
-'''docker build -t USER OR REPO NAME/IMAGE NAME:tag .'''
+```docker build -t USER OR REPO NAME/IMAGE NAME:tag .```
 for example:
-'''docker build -t fr0gger03/readfile-app:python-3.10 .'''
+```docker build -t fr0gger03/readfile-app:python-3.10 .```
 
 ## Push to Docker Hub
-'''docker push USER OR REPO NAME/IMAGE NAME:tag'''
+```docker push USER OR REPO NAME/IMAGE NAME:tag```
 for example
-'''docker push fr0gger03/readfile-app:python-3.10'''
+```docker push fr0gger03/readfile-app:python-3.10```
 
 ## Run your container!
-'''docker run --rm USER OR REPO NAME/IMAGE NAME:tag'''
+```docker run --rm USER OR REPO NAME/IMAGE NAME:tag```
 for example:
-'''e.g. docker run fr0gger03/readfile-app:python-3.10'''
+```docker run fr0gger03/readfile-app:python-3.10```
 
 A successful execution should appear as follows:
 ![picture of successful execution](successful.png)
