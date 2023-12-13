@@ -18,9 +18,9 @@ The script will read a XLSX file, and print out a summary of the contents of the
 
 ## Building and running the container
 - Install Docker Desktop on your workstation
-- From within the same directory, run thefollowing command:
-```docker build -t USER OR REPO NAME/IMAGE NAME:tag .```
-for example:
+- From within the same directory, run thefollowing command:\n
+```docker build -t USER OR REPO NAME/IMAGE NAME:tag .```\n
+for example:\n
 ```docker build -t fr0gger03/readfile-app:python-3.10 .```
 
 ## Push to Docker Hub
